@@ -1,16 +1,16 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Coffee Shop</title>
+{% extends 'base.html' %}
 
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
-</head>
-<body>
-    <h1>Welcom to Coffee Shope</h1>
 
-    <script src="{% static 'js/script.js'%}"></script>
+{% block title %}
 
-</body>
-</html>
+<h1>this is massage from index.html</h1>
+
+{% endblock %}
+
+{% block content %}
+
+<p>
+        this is index page | body 
+</p>
+
+{% endblock %}
